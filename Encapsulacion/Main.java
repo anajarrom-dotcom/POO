@@ -50,6 +50,27 @@ public class Main {
 	System.out.println(c2);
 	System.out.println(c3);
 	System.out.println(c4);
+	
+	Libro l1 = new Libro("Si lo crees, lo creas","Brian Tracy",421);
+	Libro l2 = new Libro("Relatos","Juan Osorio",240);
+	Libro l3 = new Libro("El diario de Ana Frank","Ana Frank",400);
+	System.out.println("-----Libros con + de 300 paginas-----");
+	
+	if (l1.esLargo()) {
+		System.out.println(l1 +" " + "cumple");
+		
+	}
+	
+	if (l2.esLargo()) {
+		System.out.println(l2 + " " + "cumple");
+		
+	}
+	
+	if (l3.esLargo()) {
+		System.out.println(l3 + " " +"cumple");
+		
+	}
+	
 }
 	
 }
