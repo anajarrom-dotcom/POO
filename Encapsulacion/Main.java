@@ -34,5 +34,22 @@ public class Main {
 	
 	System.out.println(prod1);
 	System.out.println(prod2);
+
+	Cuenta c1 = new Cuenta("Antony",2000);
+	Cuenta c2 = new Cuenta("juan",3450);
+	Cuenta c3 = new Cuenta("Lucia",2345);
+	Cuenta c4 = new Cuenta("	Claudia",340);
+	System.out.println("-----Historial-----");
+	
+	c1.retirar(1500.0);
+	c2.depositar(300);
+	c3.retirar(3000);
+	c4.depositar(10000.04);
+	
+	System.out.println(c1);
+	System.out.println(c2);
+	System.out.println(c3);
+	System.out.println(c4);
 }
+	
 }
