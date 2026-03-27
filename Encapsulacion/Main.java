@@ -25,5 +25,14 @@ public class Main {
 			System.out.println("El rectangulo dos" +  " " + rect2.area());
 }
 	
+	Producto prod1 = new Producto(1,"cafe",5000);
+	Producto prod2 = new Producto(2,"proteina",2000);
+	System.out.println("-----producto con descuento aplicado-----");
+	
+	prod1.aplicarDescuento(10);
+	prod2.aplicarDescuento(20);
+	
+	System.out.println(prod1);
+	System.out.println(prod2);
 }
 }
