@@ -75,6 +75,15 @@ public class Main {
 	
 	System.out.println(clc);
 	
+	Fecha f1 = new Fecha(10,5,2026);
+	Fecha f2 = new Fecha(35,45,2026);
+	Fecha f3 = new Fecha(10,55,2026);
+	System.out.println("-----Fechas-----");
+	
+	System.out.println(f1);
+	System.out.println(f2);
+	System.out.println(f3);
+	
 }
 	
 }
