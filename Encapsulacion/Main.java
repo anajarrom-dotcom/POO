@@ -70,6 +70,10 @@ public class Main {
 		System.out.println(l3 + " " +"cumple");
 		
 	}
+	Calculadora clc = new Calculadora(24, 12);
+	System.out.println("-----Calculadora-----");
+	
+	System.out.println(clc);
 	
 }
 	
