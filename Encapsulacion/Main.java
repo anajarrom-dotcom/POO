@@ -1,6 +1,6 @@
 package Encapsulacion;
 
-import Main.java.Persona;
+import Encapsulacion.Persona;
 
 public class Main {
 
@@ -13,6 +13,17 @@ public class Main {
 		prs1.Mostrar();
 		prs2.Mostrar();
 		prs3.Mostrar();
-	}
 	
+	Rectangulo rect1 = new Rectangulo(5,3);
+	Rectangulo rect2 = new Rectangulo(6,2);
+	System.out.println("-----Rectangulo con el area mas grande-----");
+	
+	
+	if (rect1.area() > rect2.area()) {
+		System.out.println("El rectangulo uno" + " " + rect1.area()); }
+		else {
+			System.out.println("El rectangulo dos" +  " " + rect2.area());
+}
+	
+}
 }
